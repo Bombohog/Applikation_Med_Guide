@@ -1,0 +1,16 @@
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+    <Button alignment="CENTER" textAlignment="CENTER" fx:id="button1" translateY="-120" onAction="#hello">Hello</Button>
+    <Button alignment="CENTER" textAlignment="CENTER" fx:id="button2" translateX="129" translateY="-120" onAction="#date">Time</Button>
+    <Button alignment="CENTER" textAlignment="CENTER" fx:id="button3" translateX="255" translateY="-120" onAction="#dice">Dice</Button>
+    <TextArea  editable="false" fx:id="textArea" translateY="0" maxWidth="300"></TextArea>
+    <ImageView fx:id="imageView" translateX="82" translateY="0" fitWidth="128" fitHeight="128"></ImageView>
+
+</GridPane>
